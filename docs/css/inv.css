@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(118, 87, 15); 
+    image-rendering: pixelated;
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    position: relative; 
+    height: 100vh;
+}
+
+.envelope {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    overflow: hidden; 
+    padding-bottom: -150px;
+}
+
+.img-env:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coffee {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+}
+
+.gif {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.text-container{
+    margin-bottom: 40px;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: white; 
+  }
+  
