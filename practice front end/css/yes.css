@@ -1,0 +1,58 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+}
+
+.container {
+    background-image: url(https://cdn.wallpapersafari.com/7/32/ZvhbSK.gif);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    image-rendering: optimizeSpeed;
+    position: relative; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.tulips{
+    margin-top: 30px; 
+    margin-bottom: 25px;
+    animation: flowermove infinite 1.5s alternate;
+    position: relative;
+}
+
+.msg-container{
+    margin-top: 50px; 
+    width: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+
+.vt323-regular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "VT323", monospace;
+    font-weight: 500;
+    font-size: 55px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    z-index: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@keyframes flowermove{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 80px;
+    }
+}
+  
