@@ -78,7 +78,44 @@ body {
     color: rgb(255, 255, 255); 
   }
 
-@media (max-width: 550px) {
+@media (max-width: 680px) {
+    
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .choice{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .text {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 40px;
+        margin-bottom: 20px;
+    }
+
+    .buttons .yes-button, .buttons .no-button {
+        width: 180px;
+        max-width: 150px;
+    }
+
+
+
+    .coffee, .coffee-shop {
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
 
     .container {
         flex-direction: column;
