@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="container">
-        <form class="input_name" method="post" name="form" onsubmit="return validation()">
+        <form class="input_name" action="/docs/inv.html" method="get" name="form" onsubmit="return validation()">
             <div class="name">Input your name</div>
-            <input type="text" name="name">
+            <input autocomplete="off" type="text" name="name">
             <div id="name_error"></div>
             <button type="submit">Submit</button>
         </form>
