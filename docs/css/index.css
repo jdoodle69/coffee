@@ -1,0 +1,12 @@
+.container {
+    position: relative; 
+    height: 100vh;
+}
+
+.input_name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
