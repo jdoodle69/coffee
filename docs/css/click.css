@@ -31,6 +31,18 @@ body {
     margin-left: 5px;
 }
 
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.back {
+    text-decoration: none;
+}
+
 
 .coffee-shop {
     position: absolute;
