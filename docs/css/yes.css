@@ -2,7 +2,7 @@
 body {
     margin: 0; 
     padding: 0; 
-    overflow: hidden;
+    overflow: none;
 }
 
 .container {
@@ -72,12 +72,13 @@ p{
 
 .loc-container {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 0;
+    right: 0;
     margin-top: 10px;
     margin-left: 15px;
     text-decoration: none;
 }
+
 
 @keyframes flowermove{
     from{
